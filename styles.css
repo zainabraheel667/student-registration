@@ -1,0 +1,89 @@
+/* Shared stylesheet for index.html, form.html and thanks.html */
+body {
+  background-color: #eaf4ea;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #2e7d32;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  text-shadow: 1px 1px 2px #1b5e20;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2e7d32;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.button:hover {
+  background-color: #1b5e20;
+}
+
+form {
+  background-color: #ffffff;
+  border: 3px solid #2e7d32;
+  border-radius: 10px;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #2e7d32;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b5e20;
+}
